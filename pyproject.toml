@@ -28,6 +28,10 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
 
 
@@ -35,7 +39,7 @@ classifiers = [
 ebt = "anytree.cli:main"
 
 [tool.poetry.dependencies]
-python = ">= 3.6.2, < 4"
+python = ">= 3.6.2"
 six = '*'
 
 [tool.poetry.dev-dependencies]
